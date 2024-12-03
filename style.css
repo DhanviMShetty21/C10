@@ -1,0 +1,54 @@
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: antiquewhite;
+    color:darkblue;
+}
+
+h1{
+    color: brown;
+    font-size: large;
+}
+
+a{
+    color:blueviolet;
+    text-decoration: none;
+}
+
+a:hover{
+    color:gold;
+}
+
+ul>li{
+    font-weight: bold;
+}
+
+h1+p{
+    background-color: burlywood;
+
+}
+
+ul li:hover {
+    color:rgb(115, 162, 34)
+}
+
+ul li:nth-child(3){
+    background-color:rgb(185, 136, 209);
+}
+
+p:not(:first-of-type){
+    text-decoration: underline;
+}
+
+ul li:before{
+    content: "🚀";
+}
+
+a::after{
+    content: "🌌";
+}
+
+p::first-letter{
+    font-size: 200%;
+    color: brown;
+
+}
